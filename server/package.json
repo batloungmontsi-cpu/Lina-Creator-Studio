@@ -1,0 +1,26 @@
+{
+  "name": "mila-creator-studio-api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "test": "node --test",
+    "check:db": "node src/scripts/checkDb.js",
+    "create-admin": "node src/scripts/createAdmin.js",
+    "reset-admin-password": "node src/scripts/resetAdminPassword.js",
+    "seed": "node src/scripts/seedDemoContent.js",
+    "seed:clear": "node src/scripts/clearDemoContent.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.1.0",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.19.1"
+  }
+}

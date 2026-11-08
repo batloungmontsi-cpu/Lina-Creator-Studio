@@ -1,0 +1,8 @@
+{
+  "short_name": "Mila Studio",
+  "name": "Mila Mokoena — Creator Studio",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#fbfaf8",
+  "background_color": "#fbfaf8"
+}
