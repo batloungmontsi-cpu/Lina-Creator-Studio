@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Mila Mokoena — Creator Studio
 
 A responsive React experience for a content creator and their audience. The public portal helps viewers find and interact with stories; the creator studio organizes content, comments, and publishing plans.
@@ -196,3 +197,7 @@ If credentials were included in an archive, remove those files and rotate the At
 ## Customizing the example content
 
 The story and comment fixtures in `src/data/creatorData.js` are used by automated tests; create real published stories from the authenticated creator dashboard.
+=======
+# Lina-Creator-Studio
+Administrators with tools to manage attractions, content, and platform information. Built using React, Node.js, Express, and MongoDB.
+>>>>>>> 95dfb2d53df5564f979cb26a85ffa841e0229954
